@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Sailor Moon</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/logo.jpg" alt="logo">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          
+          <li class="personagem selecionado" id="serena" data-name="Serena" data-description="Usagi Tsukino é a protagonista da série Sailor Moon. Ela é uma adolescente desajeitada e um tanto preguiçosa, mas também é uma líder corajosa e determinada. Quando se transforma em Sailor Moon, ela adquire poderes mágicos e se torna a guardiã da Lua. Sua personalidade carinhosa.">
+            <img
+              src="./src/imagens/card-serena.jpg"
+              alt="Personagem Serena"
+            />
+          </li>
+
+          <li class="personagem" id="reihino" data-name="Rei Hino" data-description="Rei Hino é uma sacerdotisa e membro do grupo Sailor Moon. Ela é conhecida por sua habilidade de prever o futuro e seu temperamento forte. Quando se transforma em Sailor Mars, Rei utiliza o poder do fogo em suas batalhas. Sua personalidade é muitas vezes descrita como séria e determinada.">
+            <img
+              src="./src/imagens/card-reihino.jpg"
+              alt="Personagem Rei Hino"
+            />
+          </li>
+
+          <li class="personagem" id="jupiter" data-name="Lita" data-description="Makoto Kino é uma adolescente alta e atlética. Ela é conhecida por sua força física e habilidades de combate. Quando se transforma em Sailor Jupiter, Makoto tem poderes relacionados ao trovão e aos relâmpagos. Makoto é retratada como uma pessoa gentil e leal.">
+            <img
+              src="./src/imagens/card-jupiter.jpg"
+              alt="Personagem Lita"
+            />
+          </li>
+
+          <li class="personagem" id="tuxedo" data-name="Tuxedo Mask" data-description="Mamoru Chiba é o interesse amoroso de Usagi Tsukino e também conhecido como Tuxedo Mask. Mamoru é um estudante universitário e, quando se transforma, usa um terno preto elegante com uma máscara e uma cartola. Ele tem a habilidade de lançar rosas vermelhas e lutar ao lado das Sailor Moon.">
+            <img
+              src="./src/imagens/card-tuxedo.jpg"
+              alt="Personagem Tuxedo"
+            />
+          </li>
+
+          <li class="personagem" id="venus" data-name="Mina" data-description="Minako Aino é uma das Sailor Moon e é conhecida como a líder do grupo antes da chegada de Usagi. Ela é uma idol pop famosa e muito talentosa. Quando se transforma em Sailor Venus, Minako possui habilidades relacionadas ao amor e à luz. Minako é retratada como uma personagem enérgica e confiante.">
+            <img
+              src="./src/imagens/card-venus.jpg"
+              alt="Personagem Mina"
+            />
+          </li>
+
+          <li class="personagem" id="mercurio" data-name="Ami Mizuon" data-description="Ami Mizuno é uma das integrantes do grupo Sailor Moon. Ela é uma estudante prodígio e extremamente inteligente. Quando se transforma em Sailor Mercury, ela tem habilidades relacionadas à água e à tecnologia. Sua personalidade tranquila e reservada.">
+            <img
+              src="./src/imagens/card-mercurio.jpg"
+              alt="Personagem Ami Mizuon"
+            />
+          </li>
+
+          <li class="personagem" id="chibiusa" data-name="Chibiusa" data-description="Chibiusa Tsukino é a filha de Usagi Tsukino (Sailor Moon) e Mamoru Chiba (Tuxedo Mask). Ela vem do futuro e é conhecida como Sailor Chibi Moon. É uma personagem adorável e um tanto mimada. Quando se transforma, Chibiusa usa um traje de Sailor Moon em miniatura e tem poderes relacionados à lua e ao tempo.">
+            <img
+              src="./src/imagens/card-chibiusa.jpg"
+              alt="Personagem Chibiusa"
+            />
+          </li>
+
+          <li class="personagem" id="plutao" data-name="Setsuna Meiou" data-description="Ela é a guardiã do Portão do Tempo e tem poderes relacionados ao tempo e à destruição. Setsuna tem é retratada como uma personagem misteriosa e madura, geralmente mantendo uma postura calma e reservada.">
+            <img
+              src="./src/imagens/card-plutao.jpg"
+              alt="Personagem Setsuna Meiou"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-serena.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Serena</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Usagi Tsukino é a protagonista da série Sailor Moon. Ela é uma adolescente desajeitada e um tanto preguiçosa, mas também é uma líder corajosa e determinada. Quando se transforma em Sailor Moon, ela adquire poderes mágicos e se torna a guardiã da Lua. Sua personalidade carinhosa.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="./src/js/index.js"></script>
+</html>
